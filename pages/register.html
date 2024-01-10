@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Register</title>
         <link rel="stylesheet" href="../stylesheets/registerstylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="../javascripts/register.js"></script>
     </head>
     <body>
         <header>
@@ -38,6 +40,20 @@
                 <p>
                     Register
                 </p>
+            </div>
+            <div id="formcontainer">
+                <form id="form">
+                    <p>Register</p>
+                    <div id="registercontainer">
+                        <input type="text" placeholder="Name" id="nameput">
+                        <input type="text" placeholder="Surname" id="surnameput">
+                        <input type="number" placeholder="Number" min="0" id="numberput">
+                        <input type="email" placeholder="Email" id="emailput">
+                    </div>
+                    <div id="submitcontainer">
+                        <input type="submit">
+                    </div>
+                </form>
             </div>
         </main>
     </body>

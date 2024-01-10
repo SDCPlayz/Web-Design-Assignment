@@ -58,3 +58,59 @@ main {
     font-size: 2em;
     height: 50px;
 }
+
+#formcontainer {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    width: 20%;
+    height: 75%;
+}
+
+#form p {
+    text-align: center;
+    height: 10%;
+    margin: 0;
+    margin-top: 10%;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+#form #registercontainer {
+    /* take a shot every time you see flex */
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 70%;
+}
+
+#form #registercontainer input {
+    height: 15%;
+    border-radius: 2em;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    outline: 3px solid;
+}
+
+#form #submitcontainer {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form #submitcontainer input {
+    height: 75%;
+    width: 50%;
+    border-radius: 2em;
+    background-color: red;
+    border: none;
+    outline: 3px solid;
+    font-weight: 700;
+}
