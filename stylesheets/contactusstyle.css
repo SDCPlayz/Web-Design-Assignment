@@ -58,3 +58,29 @@ main {
     font-size: 2em;
     height: 50px;
 }
+
+#about {
+    height: 650px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+#about p {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#imagecontainer {
+    width: 35%;
+    height: 650px;
+    float: left;
+}
+
+#imagecontainer img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}

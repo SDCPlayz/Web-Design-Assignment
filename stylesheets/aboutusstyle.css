@@ -58,3 +58,27 @@ main {
     font-size: 2em;
     height: 50px;
 }
+
+#aboutuscontainer {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contentcontainer {
+    height: 100%;
+    width: 50%;
+}
+
+#aboutustextcontainer {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutustextcontainer p {
+    height: 75%;
+}

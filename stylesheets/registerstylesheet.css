@@ -82,7 +82,6 @@ main {
 
 
 #form #registercontainer {
-    /* take a shot every time you see flex */
     display: flex; 
     justify-content: space-evenly;
     flex-direction: column;
